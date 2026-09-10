@@ -1,6 +1,10 @@
 # Assistant Robot with AI Recognition 🤖
 
-This project integrates hardware and software to create an interactive robot that recognizes human facial expressions in real-time and reacts to them with physical movements and contextual music. 
+Following the pandemic period experienced in Brazil in 2020, there was an increase in cases of loneliness and anxiety due to social distancing and the loss of family members that occurred during that time. Therefore, it became necessary to develop accessible and personalized mechanisms that could help reduce social isolation.
+
+The project aims to combine robotics and artificial intelligence (AI) by creating a digital assistant that interacts with individuals through music. The songs are pre-selected by the user, providing a sense of personal comfort based on their musical preferences.
+
+The robot captures an image of the user using an ESP32-CAM S3 camera and sends it to a computer, where an AI model performs facial recognition and identifies the user's emotional state. Based on the user's emotion (happy, sad, etc.), the system selects and plays a song, while the robot performs pre-programmed movements.
 
 The system uses an ESP32 camera for local video streaming, Python-based image processing for emotion detection, Bluetooth Low Energy (BLE) integration with Lego Boost motors, and the Spotify API for media control.
 
