@@ -1,4 +1,4 @@
-# Assistant Robot with AI Recognition 🤖
+# Assistant Robot with AI Recognition 🤖😺
 
 Following the pandemic period experienced in Brazil in 2020, there was an increase in cases of loneliness and anxiety due to social distancing and the loss of family members that occurred during that time. Therefore, it became necessary to develop accessible and personalized mechanisms that could help reduce social isolation.
 
@@ -15,13 +15,13 @@ The system uses an ESP32 camera for local video streaming, Python-based image pr
 *   **Robotics:** Motor control of the Lego Boost Hub via Bluetooth Low Energy (BLE) using the `pylgbst` library.
 *   **Media Integration:** Spotify API (`spotipy` with OAuth) to play specific playlists based on the detected emotion.
 
-## 🛠️ Hardware Requirements
+## Hardware Requirements
 
 *   ESP32-S3 CAM (OV5640) module.
 *   Lego Boost "MoveHub" and one external encoded motor.
 *   Local computer to run the Python processing scripts.
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 ### 1. Camera Setup (ESP32)
 1. Open the `EspCode.ino` file in the Arduino IDE.
